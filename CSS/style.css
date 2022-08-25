@@ -12,7 +12,7 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    background-color: var(--secondary-color); 
+    background-color:#FFFFFF; 
     
 }
 /* reset*/
@@ -23,10 +23,18 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 
 
@@ -51,7 +59,7 @@ a{
     text-decoration: none;
 }
 
-header{
+.container-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,16 +91,23 @@ header{
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
-    margin-right: 93px;
+    padding-right: 93px;
+    padding-left: 15px;
     
 }
 .list-nav{
-    padding: 0;
+    gap: 25px;
+    padding-left: 0;
+    
 }
 
-.item-nav{
-    padding: 0 25px;
+.list-contakt{
+    padding-left: 0;
+    gap: 50px;
+    
+
 }
+  
 
 
 .stud{
@@ -120,8 +135,7 @@ header{
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    margin-right: 25px;
-    margin-top: 32px;
+    padding: auto;
 }
 
 
@@ -131,7 +145,7 @@ header{
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    margin-left: 25px;
+    
 }
 
 
@@ -156,6 +170,7 @@ header{
 }
 
 .btns:hover,:focus{
+    cursor: pointer;
     
 }
 
@@ -166,11 +181,12 @@ header{
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: var(--accent-color);
+    border: 0;
     margin-left: 492px;
     margin-right: 492px;
     margin-bottom: 200px;
     padding: 10px 32px;
+    
 }
 
 
@@ -188,7 +204,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content:
+    gap: 30px;
+    padding-left: 15px;
 
 }
 
@@ -198,7 +215,8 @@ header{
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding:  0 15px 5px 0;
+    padding-bottom: 10px;
+    
 }
 
 
@@ -206,7 +224,7 @@ header{
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-    padding: 5px 15px 0 0;
+    
 }
 
 
@@ -216,8 +234,23 @@ header{
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 50px;
 }
 
+.list-img{
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.img-team{
+    padding-bottom: 30px;
+}
+
+.section-team{
+    background-color: #F5F4FA;
+}
 
 .title-team{
     font-weight: 500;
@@ -226,6 +259,18 @@ header{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    padding-bottom: 10px;
+}
+
+.list-team{
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+
+.item-team{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -236,6 +281,7 @@ header{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    padding-bottom: 10px;
 }
 
 
@@ -264,6 +310,7 @@ header{
     line-height: calc(31/26);
     letter-spacing: 0.03em;
     color: #FFFFFF;
+   
 }
 
 
@@ -311,8 +358,40 @@ header{
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    background: var(--secondary-color);
+    background: #F5F4FA;
     border-radius: 4px;
+    border: 0;
+    padding: 6px 22px;
+}
+
+.list-btn{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 56px;
+}
+
+.list-port{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 0;
+}
+    
+
+.item-port{
+    padding-bottom: 20px;
+    width: 370px;
+}
+
+.bord{
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.item-port:ntn-child(3n){
+    margin-right: 0;
 }
 
 
@@ -322,16 +401,21 @@ header{
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    background: var(--secondary-color);
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    border: 0;
+    padding: 6px 22px;
 }
 
 
 .subject{
-    font-size: 18px;
+    font-size: 18px;    
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 
@@ -341,6 +425,9 @@ header{
     line-height: calc(30/16);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 
@@ -350,6 +437,7 @@ header{
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--secondary-color);
 }
 
 .btn:hover,:focus {
@@ -367,4 +455,17 @@ header{
     color: var(--secondary-color);
     background: var(--accent-color);
     cursor: pointer
+}
+
+.container-footer{
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+
+}
+
+.list-foot{
+    margin-top: 20px;
+    padding-left: 0;
+    gap: 9px;
 }

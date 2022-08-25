@@ -19,178 +19,203 @@
   </head>
   <body>
     <!-- Шапка -->
+
     <header class="head">
-      <nav class="nav">
-        <a class="logo-head" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <ul class="list-nav">
-          <li class="list-item-nav">
-            <a class="link-nav" href="./index.html">Студія</a>
+      <div class="container container-head">
+        <nav class="nav">
+          <a class="logo-head" href="./index.html"><span class="accent">Web</span>Studio</a>
+          <ul class="list-nav">
+            <li class="item-nav">
+              <a class="link-nav" href="./index.html">Студія</a>
+            </li>
+            <li class="item-nav port">
+              <a class="link-nav" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item-nav">
+              <a class="link-nav" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list-contakt">
+          <li class="item">
+            <a class="link-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="item-nav">
-            <a class="link-nav port" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="item-nav">
-            <a class="link-nav" href="">Контакти</a>
+          <li class="item">
+            <a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-
-      <ul class="list-contakt">
-        <li class="item">
-          <a class="link-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="item">
-          <a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!--Основа-->
 
     <main class="main">
-      <section class="main-nav">
-        <h1 class="title">Портфоліо</h1>
-        <ul class="list-btn">
-          <li class="item-btn">
-            <button class="btn-all" type="button"><span class="text-all"> Усі </span></button>
-          </li>
-          <li class="item-btn">
-            <button class="btn" type="button">Веб-сайти</button>
-          </li>
-          <li class="item-btn">
-            <button class="btn" type="button">Додатки</button>
-          </li>
-          <li class="item-btn">
-            <button class="btn" type="button">Дизайн</button>
-          </li>
-          <li class="item-btn">
-            <button class="btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
+      <section class="section main-nav">
+        <div class="container">
+          <h1 class="title-none">Портфоліо</h1>
+          <ul class="list-btn">
+            <li class="item-btn">
+              <button class="btn-all" type="button"><span class="text-all"> Усі </span></button>
+            </li>
+            <li class="item-btn">
+              <button class="btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="item-btn">
+              <button class="btn" type="button">Додатки</button>
+            </li>
+            <li class="item-btn">
+              <button class="btn" type="button">Дизайн</button>
+            </li>
+            <li class="item-btn">
+              <button class="btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
 
-        <!--Проекти протфоліо-->
+          <!--Проекти протфоліо-->
 
-        <ul class="list">
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-1.jpg"
-              alt="на екрані фото трьох людей"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Технокряк</h2>
-            <p class="text-port">Веб-сайт</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-2.jpg"
-              alt="два баскедболіста борються за мяч"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Постер New Orlean vs Golden Star</h2>
-            <p class="text-port">Дизайн</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-3.jpg"
-              alt="логоти ресорану з робою"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Ресторан Seafood</h2>
-            <p class="text-port">Додаток</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-4.jpg"
-              alt="наушники"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Проєкт Prime</h2>
-            <p class="text-port">Маркетинг</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-5.jpg"
-              alt="дві коробки"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Проєкт Boxes</h2>
-            <p class="text-port">Додаток</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-6.jpg"
-              alt="на екрані зображена карта світу"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Inspiration has no Borders</h2>
-            <p class="text-port">Веб-сайт</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-7.jpg"
-              alt="розгорнута книга"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Видання Limited Edition</h2>
-            <p class="text-port">Дизайн</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-8.jpg"
-              alt="бірка з логотипом"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Проєкт LAB</h2>
-            <p class="text-port">Маркетинг</p>
-          </li>
-          <li class="list-item">
-            <img
-              src="./images/portfolio/img-9.jpg"
-              alt="набирає на клавіатурі ноутбука"
-              class="img"
-              width="370"
-              height="294"
-            />
-            <h2 class="subject">Growing Business</h2>
-            <p class="text-port">Додаток</p>
-          </li>
-        </ul>
+          <ul class="list-port">
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-1.jpg"
+                alt="на екрані фото трьох людей"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Технокряк</h2>
+                <p class="text-port">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-2.jpg"
+                alt="два баскедболіста борються за мяч"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Постер New Orlean vs Golden Star</h2>
+                <p class="text-port">Дизайн</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-3.jpg"
+                alt="логоти ресорану з робою"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Ресторан Seafood</h2>
+                <p class="text-port">Додаток</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-4.jpg"
+                alt="наушники"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Проєкт Prime</h2>
+                <p class="text-port">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-5.jpg"
+                alt="дві коробки"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Проєкт Boxes</h2>
+                <p class="text-port">Додаток</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-6.jpg"
+                alt="на екрані зображена карта світу"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Inspiration has no Borders</h2>
+                <p class="text-port">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-7.jpg"
+                alt="розгорнута книга"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Видання Limited Edition</h2>
+                <p class="text-port">Дизайн</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-8.jpg"
+                alt="бірка з логотипом"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Проєкт LAB</h2>
+                <p class="text-port">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item-port">
+              <img
+                src="./images/portfolio/img-9.jpg"
+                alt="набирає на клавіатурі ноутбука"
+                class="img"
+                width="370"
+                height="294"
+              />
+              <div class="bord">
+                <h2 class="subject">Growing Business</h2>
+                <p class="text-port">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- Підвал -->
 
     <footer class="footer">
-      <a class="logo-foot" href="./index.html"><span class="accent">Web</span>Studio</a>
-      <address class="cont">
-        <ul class="list-cont">
-          <li class="list-item">
-            <a class="link-cont" href="">м. Київ, пр-т Лесі Українки, 26</a>
-          </li>
-          <li class="item">
-            <a class="link-address-foot" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a class="link-tel-foot" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container container-footer">
+        <a class="logo-foot" href="./index.html"><span class="accent">Web</span>Studio</a>
+        <address class="cont">
+          <ul class="list-cont list-foot">
+            <li class="list-item">
+              <a class="link-cont" href="">м. Київ, пр-т Лесі Українки, 26</a>
+            </li>
+            <li class="item">
+              <a class="link-address-foot" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a class="link-tel-foot" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
