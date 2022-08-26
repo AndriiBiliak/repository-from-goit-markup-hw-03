@@ -14,7 +14,15 @@ body {
   background-color: #ffffff;
 }
 /* reset*/
+html {
+  box-sizing: border-box;
+}
 
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
 h1,
 h2,
 h3,
@@ -101,6 +109,8 @@ header {
 :focus {
   color: var(--accent-color);
 }
+
+/* Шапка */
 
 .logo-head {
   font-family: 'Raleway';
@@ -210,7 +220,7 @@ header {
 }
 
 .item-about {
-  width: 270px;
+  width: calc((100%-90) / 4);
 }
 
 .title-about {
@@ -267,6 +277,7 @@ header {
 }
 
 .item-team {
+  width: calc((100%-90) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -383,7 +394,7 @@ footer {
 }
 
 .item-port {
-  width: 370px;
+  width: calc((100%-60) / 3);
 }
 
 .bord {
