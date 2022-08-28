@@ -82,9 +82,6 @@ a {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -120,19 +117,20 @@ header {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   margin-right: 93px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .list-nav {
-  gap: 25px;
-  margin-right: 344px;
+  gap: 50px;
 }
 
 .list-contakt {
-  margin-left: 0;
+  margin-left: auto;
   gap: 50px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .stud {
